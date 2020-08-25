@@ -1,8 +1,6 @@
 # InsightQueryApp
 University of British Columbia Software Development MicroMasters Capstone Project
 
-edx/UBC Capstone Project
-
 This is the capstone project for the University of British Columbia's Software Development MicroMasters Program. The goal of the project is to create a query engine that can handle queries on real data from courses and buildings from the University of British Columbia (UBC). This is a full stack web development project divided into four sprints. The focus of the first three sprints is to create a test suite and build the back end of the query engine, the fourth and final sprint is focused on creating a web server and connecting the back end functionality to the web server and a frontend UI. This is a project I am actively working on. Currently, I have completed three of the four sprints. In the first sprint, I followed a TDD approach in order to build a comprehensive Integration test suite using Black Box Testing within the InsightFacade.spec.ts file. In the second sprint, I created numerous unit tests and wrote functionality that would allow users to perform queries on datasets pertaining to courses (see below for details). In the third sprint, I extended the functionality of the application to perform queries on datasets pertaining to buildings on the UBC campus. In addition, I added the ability for the aggregate queries to be run on course or building datasets which allow users to create unique groupings from a query result and then obtain information about the groupings (i.e. group a query result by unique departments and then find the average grade of courses taught by that department).
 
 Examples of functionality written in the second sprint:
