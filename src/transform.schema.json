@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "parsed query",
+    "description": "A query that is parsed into individual components that can be used to gather data",
+    "type": "object",
+    "properties": {
+        "kind": {
+            "description": "The kind of data being queried",
+            "type": "string"
+        },
+        "dataset": {
+            "description": "The name of the dataset being queried",
+            "type": "string"
+        },
+        "filter": {
+            "description": "The criteria of which data points to query",
+            "type": "object",
+            "properties": {
+                "criteria": {
+                "type": "array"
+                },
+                "operators": {
+                    "type": "array"
+                }
+            }
+        },
+        "display": {
+            "description": "The data points to return that match the given filters",
+            "type": "array"
+        },
+        "order": {
+            "description": "How results are ordered when returned, a boolean for if order is specified and the key to order on",
+            "type": "object",
+            "properties": {
+                "on": {
+                    "type": "boolean"
+                },
+                "key": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": ["title", "query", "response"]
+}
