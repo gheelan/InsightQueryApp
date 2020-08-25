@@ -1,0 +1,47 @@
+{
+    "title": "Tests complex aggregate room query",
+    "query": "In rooms dataset rooms grouped by Full Name, Address and Seats, find entries whose Seats is less than 30 and Address includes \"7\"; show Full Name, Address, sumSeats and minSeats, where sumSeats is the SUM of Seats and minSeats is the MIN of Seats; sort in ascending order by Full Name, Address, sumSeats and minSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_fullname": "Biological Sciences",
+                    "rooms_address": "6270 University Boulevard",
+                    "sumSeats": 32,
+                    "minSeats": 16
+                },
+                {
+                    "rooms_fullname": "Brock Hall Annex",
+                    "rooms_address": "1874 East Mall",
+                    "sumSeats": 24,
+                    "minSeats": 24
+                },
+                {
+                    "rooms_fullname": "MacMillan",
+                    "rooms_address": "2357 Main Mall",
+                    "sumSeats": 12,
+                    "minSeats": 6
+                },
+                {
+                    "rooms_fullname": "MacMillan",
+                    "rooms_address": "2357 Main Mall",
+                    "sumSeats": 24,
+                    "minSeats": 24
+                },
+                {
+                    "rooms_fullname": "MacMillan",
+                    "rooms_address": "2357 Main Mall",
+                    "sumSeats": 80,
+                    "minSeats": 8
+                },
+                {
+                    "rooms_fullname": "West Mall Swing Space",
+                    "rooms_address": "2175 West Mall V6T 1Z4",
+                    "sumSeats": 243,
+                    "minSeats": 27
+                }
+            ]
+        }
+    }
+}

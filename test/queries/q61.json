@@ -1,0 +1,11 @@
+{
+    "title": "Tests an aggregate query in which a m-aggKey is called on a non m-key",
+    "query": "In courses dataset courses grouped by Department, find entries whose Department is \"cpsc\"; show Department and avgGrade, where avgGrade is the AVG of Department.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}
+

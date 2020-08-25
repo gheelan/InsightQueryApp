@@ -1,0 +1,21 @@
+{
+    "title": "Rooms query tests Short Name filter key",
+    "query": "In rooms dataset rooms, find entries whose Short Name is \"FORW\"; show Seats; sort in ascending order by Seats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_seats": 35
+                },
+                {
+                    "rooms_seats": 44
+                },
+                {
+                    "rooms_seats": 63
+                }
+            ]
+        }
+    }
+}
+

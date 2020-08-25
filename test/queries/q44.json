@@ -1,0 +1,24 @@
+{
+    "title": "Rooms query tests Link filter key",
+    "query": "In rooms dataset rooms, find entries whose Link includes \"FORW\" and Seats is greater than 30; show Short Name and Seats; sort in ascending order by Seats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_shortname": "FORW",
+                    "rooms_seats": 35
+                },
+                {
+                    "rooms_shortname": "FORW",
+                    "rooms_seats": 44
+                },
+                {
+                    "rooms_shortname": "FORW",
+                    "rooms_seats": 63
+                }
+            ]
+        }
+    }
+}
+

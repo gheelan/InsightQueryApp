@@ -1,0 +1,89 @@
+{
+    "title": "Tests complex aggregate course query with stricter filter parameters",
+    "query": "In courses dataset courses grouped by Department and Instructor, find entries whose Department is \"cpsc\" and Average is greater than 90; show Department, Instructor, avgGrade and sumGrade, where avgGrade is the AVG of Average and sumGrade is the SUM of Average; sort in descending order by Department and avgGrade.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "carenini, giuseppe",
+                    "avgGrade": 94.5,
+                    "sumGrade": 94.5
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "knorr, edwin max",
+                    "avgGrade": 93.06,
+                    "sumGrade": 186.13
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "harvey, nicholas",
+                    "avgGrade": 92.75,
+                    "sumGrade": 92.75
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "friedman, joel",
+                    "avgGrade": 92.48,
+                    "sumGrade": 277.43
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "tsiknis, georgios",
+                    "avgGrade": 92.04,
+                    "sumGrade": 276.13
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "",
+                    "avgGrade": 92.01,
+                    "sumGrade": 2392.18
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "wolfman, steven",
+                    "avgGrade": 92,
+                    "sumGrade": 92
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "wohlstadter, eric",
+                    "avgGrade": 91.79,
+                    "sumGrade": 91.79
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "hoos, holger",
+                    "avgGrade": 91.25,
+                    "sumGrade": 91.25
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "beschastnikh, ivan",
+                    "avgGrade": 91.22,
+                    "sumGrade": 91.22
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "schmidt, mark",
+                    "avgGrade": 90.88,
+                    "sumGrade": 181.75
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "poole, david",
+                    "avgGrade": 90.71,
+                    "sumGrade": 90.71
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "krasic, charles",
+                    "avgGrade": 90.11,
+                    "sumGrade": 90.11
+                }
+            ]
+        }
+    }
+}

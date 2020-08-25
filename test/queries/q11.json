@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid m-criteria (multiple) for FILTER",
+    "query": "In courses dataset courses, find entries whose Pass is greater than 90 and minus than 97; show Department and Average; sort in ascending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

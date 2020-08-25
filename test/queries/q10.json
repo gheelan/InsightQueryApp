@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid s-criteria (single) for FILTER",
+    "query": "In courses dataset courses, find entries whose iD is \"19182\"; show Department and Average; sort in ascending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

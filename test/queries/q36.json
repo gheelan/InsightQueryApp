@@ -1,0 +1,129 @@
+{
+    "title": "Specifically tests IS on Instructor",
+    "query": "In courses dataset courses, find entries whose Instructor is \"smulders, dave\"; show Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_avg": 67.95
+                },
+                {
+                    "courses_avg": 75.91
+                },
+                {
+                    "courses_avg": 77.77
+                },
+                {
+                    "courses_avg": 78.21
+                },
+                {
+                    "courses_avg": 78.24
+                },
+                {
+                    "courses_avg": 79.47
+                },
+                {
+                    "courses_avg": 79.83
+                },
+                {
+                    "courses_avg": 79.84
+                },
+                {
+                    "courses_avg": 79.88
+                },
+                {
+                    "courses_avg": 80.44
+                },
+                {
+                    "courses_avg": 81.45
+                },
+                {
+                    "courses_avg": 81.45
+                },
+                {
+                    "courses_avg": 81.62
+                },
+                {
+                    "courses_avg": 81.71
+                },
+                {
+                    "courses_avg": 81.89
+                },
+                {
+                    "courses_avg": 82.76
+                },
+                {
+                    "courses_avg": 82.78
+                },
+                {
+                    "courses_avg": 83.33
+                },
+                {
+                    "courses_avg": 83.41
+                },
+                {
+                    "courses_avg": 83.45
+                },
+                {
+                    "courses_avg": 83.48
+                },
+                {
+                    "courses_avg": 83.57
+                },
+                {
+                    "courses_avg": 83.91
+                },
+                {
+                    "courses_avg": 84.52
+                },
+                {
+                    "courses_avg": 84.57
+                },
+                {
+                    "courses_avg": 84.87
+                },
+                {
+                    "courses_avg": 85.39
+                },
+                {
+                    "courses_avg": 85.6
+                },
+                {
+                    "courses_avg": 85.81
+                },
+                {
+                    "courses_avg": 86
+                },
+                {
+                    "courses_avg": 86.04
+                },
+                {
+                    "courses_avg": 86.17
+                },
+                {
+                    "courses_avg": 86.24
+                },
+                {
+                    "courses_avg": 86.26
+                },
+                {
+                    "courses_avg": 86.44
+                },
+                {
+                    "courses_avg": 86.65
+                },
+                {
+                    "courses_avg": 88.53
+                },
+                {
+                    "courses_avg": 89
+                },
+                {
+                    "courses_avg": 89.38
+                }
+            ]
+        }
+    }
+}
+

@@ -1,0 +1,10 @@
+{
+    "title": "A query with valid keys that are out of order",
+    "query": "In courses dataset courses, show Department and Average; find entries whose Average is greater than 97; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

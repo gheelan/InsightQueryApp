@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid IS",
+    "query": "In courses dataset courses, find entries whose Instructor is x; show Instructor; sort in ascending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid sort phrase for ORDER",
+    "query": "In courses dataset courses, find all entries whose Average is less than 75; show Department and Average; sort in order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

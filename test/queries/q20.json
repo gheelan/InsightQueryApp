@@ -1,0 +1,10 @@
+{
+    "title": "A query missing FILTER section",
+    "query": "In courses dataset courses, show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

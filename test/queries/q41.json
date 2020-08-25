@@ -1,0 +1,10 @@
+{
+    "title": "A query with an invalid Order",
+    "query": "In courses dataset courses, find entries whose Department is not \"adhe\" and Fail is greater than 12; show Pass and Department; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "result": []
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A query missing DATASET",
+    "query": "Find all entries whose Average is less than 75; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

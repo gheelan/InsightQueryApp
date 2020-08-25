@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid m-criteria (single) for FILTER",
+    "query": "In courses dataset courses, find entries whose Total is equal to 88; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

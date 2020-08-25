@@ -1,0 +1,10 @@
+{
+    "title": "A query missing DISPLAY section",
+    "query": "In courses dataset courses, find all entries whose Average is less than 75; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

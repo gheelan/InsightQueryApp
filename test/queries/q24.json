@@ -1,0 +1,13 @@
+{
+    "title": "Specifically tests Fail and equal to keys",
+    "query": "In courses dataset courses, find entries whose Department is \"hinu\" and Fail is equal to 2; show Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {"courses_avg": 76.09},
+                {"courses_avg": 76.09}
+            ]
+        }
+    }
+}

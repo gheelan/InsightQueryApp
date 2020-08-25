@@ -1,0 +1,61 @@
+{
+    "title": "Tests course query that contains Year keyword in Filter",
+    "query": "In courses dataset courses, find entries whose Year is greater than 2015 and Average is greater than 95; show Year, Average and Title; sort in ascending order by Year and Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 95.16,
+                    "courses_title": "exp des anl ed"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 95.26,
+                    "courses_title": "islnd wild mgmt"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 95.26,
+                    "courses_title": "islnd wild mgmt"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 95.32,
+                    "courses_title": "indig, tech&ed"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 95.32,
+                    "courses_title": "indig, tech&ed"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 95.9,
+                    "courses_title": "exp des anl ed"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 96.73,
+                    "courses_title": "eth&profl issues"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 96.73,
+                    "courses_title": "eth&profl issues"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 97.25,
+                    "courses_title": "diff geometry i"
+                },
+                {
+                    "courses_year": 2016,
+                    "courses_avg": 97.25,
+                    "courses_title": "diff geometry i"
+                }
+            ]
+        }
+    }
+}

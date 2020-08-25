@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid m-criteria for DISPLAY",
+    "query": "In courses dataset courses, find entries whose Average is less than 75; show Sum and Average; sort in ascending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

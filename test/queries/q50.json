@@ -1,0 +1,35 @@
+{
+    "title": "Tests finding rooms with a specific type of furniture (furniture type includes + and -)",
+    "query": "In rooms dataset rooms, find entries whose Furniture is \"Classroom-Movable Tables + Chairs\" and Full Name is \"Forest Sciences Centre\"; show Full Name and Address; sort in ascending order by Full Name.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_address": "2424 Main Mall"
+                },
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_address": "2424 Main Mall"
+                },
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_address": "2424 Main Mall"
+                },
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_address": "2424 Main Mall"
+                },
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_address": "2424 Main Mall"
+                },
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_address": "2424 Main Mall"
+                }
+            ]
+        }
+    }
+}

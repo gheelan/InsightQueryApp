@@ -1,0 +1,31 @@
+{
+    "title": "Tests query where partial weblink is used as filter criteria && sorting on weblink",
+    "query": "In rooms dataset rooms, find entries whose Link includes \"http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD\"; show Full Name and Link; sort in ascending order by Link.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_fullname": "Allard Hall (LAW)",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-105"
+                },
+                {
+                    "rooms_fullname": "Allard Hall (LAW)",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-112"
+                },
+                {
+                    "rooms_fullname": "Allard Hall (LAW)",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-113"
+                },
+                {
+                    "rooms_fullname": "Allard Hall (LAW)",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-121"
+                },
+                {
+                    "rooms_fullname": "Allard Hall (LAW)",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-B101"
+                }
+            ]
+        }
+    }
+}

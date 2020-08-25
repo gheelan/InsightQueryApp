@@ -1,0 +1,29 @@
+{
+    "title": "Tests aggregate room query with only an aggKey for Display/Order",
+    "query": "In rooms dataset rooms grouped by Full Name, Address and Seats, find entries whose Seats is less than 30 and Address includes \"7\"; show sumSeats, where sumSeats is the SUM of Seats; sort in ascending order by sumSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "sumSeats": 12
+                },
+                {
+                    "sumSeats": 24
+                },
+                {
+                    "sumSeats": 24
+                },
+                {
+                    "sumSeats": 32
+                },
+                {
+                    "sumSeats": 80
+                },
+                {
+                    "sumSeats": 243
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Tests simple aggregate room query",
+    "query": "In rooms dataset rooms grouped by Full Name, find entries whose Full Name is \"Brock Hall Annex\"; show Full Name and avgSeats, where avgSeats is the AVG of Seats; sort in ascending order by avgSeats and Full Name.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "rooms_fullname": "Brock Hall Annex",
+                    "avgSeats": 47
+                }
+            ]
+        }
+    }
+}

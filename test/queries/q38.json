@@ -1,0 +1,15 @@
+{
+    "title": "Specifically tests IS on UUID",
+    "query": "In courses dataset courses, find entries whose UUID is \"200\"; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_dept": "musc",
+                    "courses_avg": 73.96
+                }
+            ]
+        }
+    }
+}

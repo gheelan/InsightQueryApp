@@ -1,0 +1,13 @@
+{
+    "title": "Specifically tests Audit key",
+    "query": "In courses dataset courses, find entries whose Department is \"hinu\" and Audit is equal to 3; show Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {"courses_avg": 93.22},
+                {"courses_avg": 93.22}
+            ]
+        }
+    }
+}

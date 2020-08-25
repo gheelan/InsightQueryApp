@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER prefix",
+    "query": "In courses dataset courses, find all entries whose Department is \"adhe\" or ID includes \"7\"; show Department and Average; sort in ascending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

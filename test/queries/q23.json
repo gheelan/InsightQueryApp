@@ -1,0 +1,21 @@
+{
+    "title": "Specifically tests Pass and greater than keys",
+    "query": "In courses dataset courses, find entries whose Department is \"hinu\" and Pass is less than 20; show Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {"courses_avg": 80.11},
+                {"courses_avg": 80.11},
+                {"courses_avg": 81.61},
+                {"courses_avg": 81.61},
+                {"courses_avg": 82.58},
+                {"courses_avg": 82.58},
+                {"courses_avg": 82.83},
+                {"courses_avg": 83.45},
+                {"courses_avg": 89},
+                {"courses_avg": 91}
+            ]
+        }
+    }
+}

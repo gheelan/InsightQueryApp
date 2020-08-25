@@ -1,0 +1,27 @@
+{
+    "title": "Specifically tests ID and includes keys",
+    "query": "In courses dataset courses, find entries whose Department is \"hinu\" and ID includes \"102\"; show Title; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"},
+                {"courses_title": "intr hindi-urdu"}
+            ]
+        }
+    }
+}

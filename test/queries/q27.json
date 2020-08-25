@@ -1,0 +1,50 @@
+{
+    "title": "Specifically tests Instructor key and does not include keys",
+    "query": "In courses dataset courses, find entries whose Department is \"hinu\" and Instructor does not include \"b\"; show Pass; sort in ascending order by Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_pass": 6
+                },
+                {
+                    "courses_pass": 11
+                },
+                {
+                    "courses_pass": 12
+                },
+                {
+                    "courses_pass": 18
+                },
+                {
+                    "courses_pass": 19
+                },
+                {
+                    "courses_pass": 19
+                },
+                {
+                    "courses_pass": 19
+                },
+                {
+                    "courses_pass": 20
+                },
+                {
+                    "courses_pass": 20
+                },
+                {
+                    "courses_pass": 23
+                },
+                {
+                    "courses_pass": 23
+                },
+                {
+                    "courses_pass": 23
+                },
+                {
+                    "courses_pass": 25
+                }
+            ]
+        }
+    }
+}

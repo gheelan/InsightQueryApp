@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid s-criteria for DISPLAY",
+    "query": "In courses dataset courses, find entries whose Average is less than 75; show Deprtment, ID, and Instructor; sort in ascending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

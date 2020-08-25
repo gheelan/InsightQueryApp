@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid GT",
+    "query": "In courses dataset courses, find entries whose Fail is greater than \"10\"; show Instructor; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

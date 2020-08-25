@@ -1,0 +1,17 @@
+{
+    "title": "Specifically tests ID and includes keys",
+    "query": "In courses dataset courses, find entries whose Department is \"hinu\" and UUID ends with \"8\"; show Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                    "courses_avg": 76.09
+                },
+                {
+                    "courses_avg": 87.52
+                }
+            ]
+        }
+    }
+}

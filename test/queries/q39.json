@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid EQ",
+    "query": "In courses dataset courses, find entries whose Average is equal to fifty; show Instructor; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}
