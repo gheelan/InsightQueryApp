@@ -18,4 +18,4 @@ Examples of functionality written in the third sprint:
   * Perform aggregate queries on room and course datasets that can return the average, sum, minimum, and maximum values of groups specified by the user
     - (Ex. Find and group all courses taught by a specific professor and then return the average number of students who passed their courses and the minimum average grade from         all of their courses)
  
- I am currently beginning work on the fourth and final sprint in which I will create a web server and connect the backend query engine to a boilerplate UI implementation!
+ I am currently in the process of completing the fourth and final sprint by creating a web server using Restify and connecting the backend query engine to a boilerplate UI implementation!
