@@ -1,0 +1,12 @@
+{
+    "query1":"simple query is comparison for department with two columns and one order element",
+    "query2":"should be able to build courses query with one condition, one column, and one ascending order element",
+    "query3":"should build courses query with two conditions (one m-key and one s-key), two columns to display, and sorted in ascending order by one m-key",
+    "query4":"should build a simple room query that finds all buildings with a specific Short Name (one s-key) and displays the address",
+    "query5":"should build complex aggregate course query with an OR filter expression and one aggregation",
+    "query6":"Query to see why forms are being stupid",
+    "query7":"Aggregate course query with more than 2 groupings",
+    "query8":"Room query without any conditions (find all entries)",
+    "query9":"Course query with 'none of the following' conditions selector",
+    "query10":"Aggregate query with 2 aggregates being displayed"
+}

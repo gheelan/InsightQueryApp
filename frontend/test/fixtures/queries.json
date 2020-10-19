@@ -1,0 +1,12 @@
+{
+    "query1":"In courses dataset courses, find entries whose Department is \"cpsc\"; show Department and ID; sort in ascending order by ID.",
+    "query2":"In courses dataset courses, find entries whose Average is greater than 94; show Average; sort in ascending order by Average.",
+    "query3":"In courses dataset courses, find entries whose Average is greater than 95 and Department is \"adhe\"; show Average and Department; sort in ascending order by Average.",
+    "query4":"In rooms dataset rooms, find entries whose Short Name is \"ALRD\"; show Address.",
+    "query5":"In courses dataset courses grouped by Average and Department, find entries whose Year is equal to 2018 and Average is greater than 97; show Average, Department, Year and avgGrade, where avgGrade is the AVG of Average; sort in ascending order by Department.",
+    "query6":"In courses dataset courses, find entries whose Pass is greater than 5; show Average, Pass and UUID; sort in ascending order by Pass.",
+    "query7":"In courses dataset courses grouped by Instructor, Pass, Title and Year, find entries whose Instructor is \"smulders, dave\"; show Year and passingTotal, where passingTotal is the COUNT of Pass; sort in ascending order by Year.",
+    "query8":"In rooms dataset rooms, find all entries; show Full Name and Address; sort in ascending order by Full Name.",
+    "query9":"In courses dataset courses, find entries whose Audit is not equal to 5 and Department is not \"adhe\"; show Audit and UUID; sort in ascending order by UUID.",
+    "query10":"In courses dataset courses grouped by Average and Department, find entries whose Audit is greater than 5; show Average, Department, passCount and avgGrade, where passCount is the COUNT of Pass and avgGrade is the AVG of Average; sort in descending order by avgGrade."
+}
